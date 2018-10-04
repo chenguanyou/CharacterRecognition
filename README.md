@@ -1,10 +1,12 @@
-# CharacterRecognition
+# 百度文字识别
 百度文字识别api，Python3，包含了(通用文字识别，通用文字识别（含位置信息版），通用文字识别（高精度版），通用文字识别（高精度含位置版），网络图片文字识别，身份证识别，银行卡识别，驾驶证识别，行驶证识别，营业执照识别，车牌识别，表格文字识别-提交请求，通用票据识别，手写文字识别，增值税发票识别，数字识别，欢迎使用！
 
 # 测试使用
 1、在shitu_api/confing.py里配置您的AK,SK。
 2、运行python3 shitu_api/bin/CharacterRecognition/test.py 文件即可测试
 
+
+# 以下为运行结果
 ~~~
 通用文字识别本地： {'log_id': 8911898719824284850, 'words_result_num': 3, 'words_result': [{'words': 'No'}, {'words': 'Date'}, {'words': '驰中璃'}]}
 通用文字识别url:  {'log_id': 4504083923706946204, 'words_result_num': 1, 'words_result': [{'words': 'Badu百度'}]}
